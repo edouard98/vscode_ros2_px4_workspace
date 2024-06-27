@@ -5,6 +5,22 @@
 
 Welcome to our development environment template for ROS2, PX4, and Gazebo. This Docker-based setup enables seamless integration of ROS2, PX4, and Gazebo with VSCode, providing a robust environment for developing drone applications.
 
+# Citation
+If you are using this template in your research, feel free to cite the following paper: 
+
+'''
+@INPROCEEDINGS{10556912,
+  author={Rolland, Edouard G. A. and Grøntved, Kasper A. R. and Christensen, Anders Lyhne and Watson, Matthew and Richardson, Tom},
+  booktitle={2024 International Conference on Unmanned Aircraft Systems (ICUAS)}, 
+  title={Autonomous UAV Volcanic Plume Sampling Based on Machine Vision and Path Planning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1064-1071},
+  keywords={Training;Wildfires;Machine vision;Object detection;Manuals;Feature extraction;Visual servoing},
+  doi={10.1109/ICUAS60882.2024.10556912}}
+'''
+
 ## Table of Contents
 
 - [Introduction](#introduction)
