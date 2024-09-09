@@ -1,5 +1,6 @@
 # Use the base ROS 2 image with the specified tag
-FROM kaspergrontved/px4:dev
+# Change this to run the latest version of PX4
+FROM kaspergrontved/px4:v1.14
 
 # ** [Optional] Uncomment this section to install additional packages. **
 #
