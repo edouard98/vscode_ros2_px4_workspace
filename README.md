@@ -151,3 +151,13 @@ python3 .devcontainer/repos_to_submodules.py
 ```
 
 or run the task titled `add submodules from .repos`
+
+### Docker Desktop
+If you have installed docker combined with Docker Desktop (This is, to my knowledge, only for unix based systems), you might encounter errors when binding the container.
+The error might look like this: 
+```
+docker: Error response from daemon: invalid mount config for type 
+"bind": bind source path does not exist: /tmp/.X11-unix
+```
+
+Fix this by adding the directories in the error message to your **shared files** in your docker desktop settings under **Resources** -> **File sharing** -> **Virtual file shares**.
