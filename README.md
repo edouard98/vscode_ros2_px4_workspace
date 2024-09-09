@@ -1,10 +1,26 @@
-# ROS2 & PX4 VSCode Dev Envirnment  
+# ROS2 & PX4 VSCode Dev Environment  
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://github.com/edouardrolland/vscode_ros2_px4_workspace/actions/workflows/ros.yaml/badge.svg)](https://github.com/edouardrolland/vscode_ros2_px4_workspace/actions/workflows/ros.yaml)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 
 Welcome to our development environment template for ROS2, PX4, and Gazebo. This Docker-based setup enables seamless integration of ROS2, PX4, and Gazebo with VSCode, providing a robust environment for developing drone applications.
 
+# Citation
+If you are using this template in your research, feel free to cite the following paper: 
+
+
+```
+@INPROCEEDINGS{10556912,
+  author={Rolland, Edouard G. A. and Grøntved, Kasper A. R. and Christensen, Anders Lyhne and Watson, Matthew and Richardson, Tom},
+  booktitle={2024 International Conference on Unmanned Aircraft Systems (ICUAS)}, 
+  title={Autonomous UAV Volcanic Plume Sampling Based on Machine Vision and Path Planning}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1064-1071},
+  keywords={Training;Wildfires;Machine vision;Object detection;Manuals;Feature extraction;Visual servoing},
+  doi={10.1109/ICUAS60882.2024.10556912}}
+```
 ## Table of Contents
 
 - [Introduction](#introduction)
