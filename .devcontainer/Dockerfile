@@ -18,3 +18,6 @@ FROM kaspergrontved/px4:v1.14
 ARG WORKSPACE
 RUN echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/install/setup.bash; fi" >> /home/ros/.bashrc
 RUN echo "source /home/ros/ws_sensor_combined/install/setup.bash" >> /home/ros/.bashrc
+
+ARG USERNAME
+RUN /bin/bash -c "sudo chown -R ${USERNAME}:${USERNAME} /home/${USERNAME}/PX4-Autopilot"
